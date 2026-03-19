@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Profile CV</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #container {
+      width: 100%;
+      max-width: 1000px;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    /* HEADER */
+    .hero {
+      padding: 40px;
+      background: linear-gradient(120deg, #4f46e5, #06b6d4);
+      color: white;
+      text-align: left;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      opacity: 0.9;
+    }
+
+    .hero p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: white;
+      margin-bottom: 15px;
+    }
+
+    /* ✅ GitHub Button */
+    .github-btn {
+      display: inline-block;
+      padding: 10px 18px;
+      background: white;
+      color: #111827;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .github-btn:hover {
+      background: #111827;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    /* CONTENT */
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: #f9fafb;
+      padding: 20px;
+      border-radius: 15px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      background: #f1f5f9;
+    }
+
+    .title {
+      color: #4f46e5;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background: #e0e7ff;
+    }
+
+    tr:hover {
+      background: #f1f5f9;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 15px;
+      color: #6b7280;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="container">
+
+  <!-- HEADER -->
+  <div class="hero">
+    <h1>Kira Vinyarskaya</h1>
+    <h2>kira8659064@example.com</h2>
+
+    <p>
+      Computer Science student with an interest in cybersecurity and 
+      web technologies.
+    </p>
+
+    <!-- ✅ GitHub Button -->
+    <a href="https://github.com/kiravinarskaa" class="github-btn" target="_blank">
+      View GitHub
+    </a>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="content">
+
+    <div class="card">
+      <h2 class="title" style="margin-top:15px;">Education</h2>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Institution</th>
+          <th>Program</th>
+        </tr>
+        <tr>
+          <td>2023 - Present</td>
+          <td>RNU</td>
+          <td>Information systems</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2 class="title">Skills</h2>
+      <td>Security Awareness Content Development, Cybersecurity Methodologies,</td>
+      <td>Risk Communication, Instructional Design for Security Training, Content Localization,</td>
+      <td>Information Security, NIST Cybersecurity Framework, RMF</td>
+      </tr>
+      <table>
+        <tr>
+          <th>Category</th>
+          <th>Details</th>
+        </tr>
+        <tr>
+          <td>Programming</td>
+          <td>HTML, CSS, C/C++, Java, Python </td>
+        </tr>
+        <tr>
+          <td>Tools</td>
+          <td>VS Code, Linux, Kali Linux, Ubuntu, MS Office</td>
+        </tr>
+        <tr>
+          <td>Interests</td>
+          <td>Cybersecurity, Web Development</td>
+        </tr>
+        <td>Languages</td>
+          <td>Russian, English</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2 class="title">Certificates</h2>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Certificate</th>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Google Cybersecurity</td>
+	</tr>
+          <td>2025</td>
+          <td>Mastercard - Cybersecurity Job Simulation</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="card">
+      <h2 class="title">Experience</h2>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Experience</th>
+        </tr>
+        <tr>
+          <td>2025</td>
+          <td>Information Security - Intern </td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
